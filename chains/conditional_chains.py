@@ -19,7 +19,7 @@ llm = ChatOpenAI(model = "gpt-3.5-turbo")
 
 
 template = [
-    ("system","You are an intelligent system who classifies the reviews based on positive ,negative or neutra land returns any "
+    ("system","You are an intelligent system who classifies the reviews based on positive ,negative or neutral and returns any "
     "one of these three"),
     ("human","given the review {review} find out is it positive,neagtive ,neutral or escalate review")
 ]
